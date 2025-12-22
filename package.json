@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Sora0023/hexlet-js/issues"
   },
-  "homepage": "https://github.com/Sora0023/hexlet-js#readme"
+  "homepage": "https://github.com/Sora0023/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
