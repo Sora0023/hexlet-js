@@ -1,0 +1,26 @@
+{
+  "name": "hexlet",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Мой первый проект на Хекслете",
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "javascript",
+    "npm",
+    "hexlet"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sora0023/hexlet-js.git"
+  },
+  "author": "Sora0023",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sora0023/hexlet-js/issues"
+  },
+  "homepage": "https://github.com/Sora0023/hexlet-js#readme"
+}
