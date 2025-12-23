@@ -8,4 +8,10 @@ install:
 hello: 
 	echo 'Сработал короткий текст'
 
-  
+# Check accuracy 
+lint: 
+	npx eslint .
+
+# Fix errors
+lint-fix:
+	npx eslint --fix .
