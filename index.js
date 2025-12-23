@@ -1,8 +1,5 @@
-import _ from "lodash";
+import calculateLast, {printConsole} from './src/index.js';
 
-console.log(_.last(["one", "two"]));
+// printConsole( calculateLast('one', 'two') )
 
-const fn = (a, b) => {
-  const c = a + b;
-  return c;
-};
+printConsole( 'Hello, Hexlet!' )
