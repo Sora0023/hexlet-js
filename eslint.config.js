@@ -6,6 +6,11 @@ import stylistic from '@stylistic/eslint-plugin'
 export default defineConfig([
   stylistic.configs.recommended,
   {
+    rules: {
+      '@stylistic/quotes': 'off',
+    },
+  },
+  {
     files: ['**/*.{js,mjs,cjs}'],
     plugins: { js },
     extends: ['js/recommended'],
